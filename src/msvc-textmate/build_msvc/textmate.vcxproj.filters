@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\jsoncpp\dist\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\textmate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\parser\grammar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\parser\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\parser\pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\parser\reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\scopes\match.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\scopes\parse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\scopes\scope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\scopes\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\theme\theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\extensions\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\extensions\utf8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\extensions\extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\resources\themes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\tm-parser\textmate\resources\grammars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\SyntaxView\src\msvc-textmate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F2158D4-BDB7-3FD9-9F23-75DA635FA59B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

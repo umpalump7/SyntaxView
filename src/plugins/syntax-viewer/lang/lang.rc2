@@ -1,0 +1,112 @@
+﻿//****************************************************************************
+//
+// Copyright (c) 2023 Open Salamander Authors
+//
+// This is a part of the Open Salamander SDK library.
+//
+//****************************************************************************
+
+//
+// lang.rc2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#include "..\versinfo.rh2"
+#include "versinfo.rc2"
+
+STRINGTABLE
+{
+ IDS_PLUGINNAME,             "SyntaxView"
+ IDS_ABOUT,                  "About Plugin"
+ IDS_PLUGIN_DESCRIPTION,     "This plugin provides file viewing capability with syntax highlighting\nusing TextMate grammars and themes."
+ IDS_PLUGIN_HOME,            "www.github.com/umpalump7/SyntaxView"
+ IDS_PLUGIN_BUGREP,          "An exception in SyntaxView has occured, please inform authors!\nPlease try to reproduce the bug with this file and if exception\noccurs again, send us this file (we will reproduce and fix the bug).\nThanks!"
+ IDS_PLUGIN_EMAIL,           "michal.mores9@gmail.com"
+ IDS_CFG_ALREADY_OPENED,     "The configuration is already opened."
+ IDS_VIEWER_OPENWNDS,        "Some SyntaxView viewer windows are opened. Do you want to close them?"
+ IDS_CFG_TITLE,              "SyntaxView Configuration"
+ IDS_INVALID_NUM,            "Invalid number!"
+ IDS_DMV_FILES_FILTER,       "All Files (*.*)|*.*|"
+
+ IDS_MENU_FILES,             "&Files"
+ IDS_MENU_FILES_OPEN,        "&Open\tCtrl+O"
+ IDS_MENU_FILES_OPENEDITOR,  "Open in &Editor\tCtrl+E"
+ IDS_MENU_FILES_GOTOLINE	 "Go To &Line...\tCtrl+G"
+ IDS_MENU_FILES_OTHERFILES        "&Other Files"
+ IDS_MENU_FILES_PREV         "&Previous\tBackspace"
+ IDS_MENU_FILES_NEXT         "&Next\tSpace"
+ IDS_MENU_FILES_PREVSEL      "&Previous Selected\tCtrl+Backspace"
+ IDS_MENU_FILES_NEXTSEL      "&Next Selected\tCtrl+Space"
+ IDS_MENU_FILES_FIRST        "&First\tShift+Backspace"
+ IDS_MENU_FILES_LAST         "&Last\tShift+Space"
+ IDS_MENU_FILES_EXIT,        "E&xit"
+ IDS_MENU_EDIT,              "&Edit"
+ IDS_MENU_EDIT_COPY,         "&Copy\tCtrl+C"
+ IDS_MENU_EDIT_SELECTALL,    "&Select All\tCtrl+A"
+ IDS_MENU_VIEW,              "&View"
+ IDS_MENU_VIEW_LINENUMBERING, "&Line Numbering\tCtrl+X"
+ IDS_MENU_VIEW_FULLSCREEN,  "&Full Screen\tF11"
+ IDS_MENU_FILTER,            "&Filter"
+ IDS_MENU_OPTIONS,           "&Options"
+ IDS_MENU_OPTIONS_CFG,       "&Configuration..."
+ IDS_MENU_HELP,              "&Help"
+ IDS_MENU_HELP_ABOUT,        "&About"
+ IDS_TBTT_CUT,               "Cut\tCtrl+X"
+ IDS_TBTT_COPY,              "Copy\tCtrl+C"
+ IDS_TBTT_PASTE,             "Paste\tCtrl+V"
+ IDS_TBTT_FILTER,            "Filter\tCtrl+U"
+ IDS_FILTER,                 "Filter"
+
+ IDS_MENU_SEARCH            "Search"
+ IDS_MENU_SEARCH_FIND       "Find...\tCtrl+F"
+ IDS_MENU_SEARCH_FINDNEXT   "Find Next\tCtrl+N"
+ IDS_MENU_SEARCH_FINDPREV   "Find Previous\tCtrl+P"
+
+ IDS_MENU_ENCODING			"Encoding"
+ IDS_MENU_ENCODING_ANSI		"ANSI"
+ IDS_MENU_ENCODING_UTF8		"UTF-8"
+ IDS_MENU_ENCODING_OEM		"OEM"
+ IDS_MENU_ENCODING_CP852		"CP852"
+ IDS_MENU_ENCODING_CP1250		"CP1250"
+ IDS_MENU_ENCODING_CP1252		"CP1252"
+ IDS_MENU_ENCODING_LATIN1		"ISO-8859-1"
+ IDS_MENU_ENCODING_LATIN2		"ISO-8859-2"
+
+
+	// items for regular expression menus
+ IDS_REGEXP_ANYCHAR,            "Any Character"
+ IDS_REGEXP_SETOFCHAR,          "Any from Set of Characters"
+ IDS_REGEXP_NOTSETOFCHAR,       "Any Except Set of Characters"
+ IDS_REGEXP_RANGEOFCHAR,        "Any from Range of Characters"
+ IDS_REGEXP_BEGINOFLINE,        "Beginning of Line"
+ IDS_REGEXP_ENDOFLINE,          "End of Line"
+ IDS_REGEXP_OR,                 "Or"
+ IDS_REGEXP_0ORMORE,            "0 or More Matches"
+ IDS_REGEXP_1ORMORE,            "1 or More Matches"
+ IDS_REGEXP_0OR1,               "0 or 1 Matches"
+
+ IDS_REGEXP_ALPHANUMERIC_CHAR,  "Alphanumeric Character"
+ IDS_REGEXP_ALPHABETIC_CHAR,    "Alphabetic Character"
+ IDS_REGEXP_DECIMAL_DIGIT,      "Decimal Digit"
+
+ IDS_REGEXP_PARENTHESIS_L_CHAR,  "Left Parenthesis '('"
+ IDS_REGEXP_PARENTHESIS_R_CHAR,  "Right Parenthesis ')'"
+ IDS_REGEXP_DOT_CHAR,            "Dot '.'"
+ IDS_REGEXP_PLUS_CHAR,           "Plus '+'"
+ IDS_REGEXP_ASTERISK_CHAR,       "Asterisk '*'"
+
+ IDS_REGEXP_DECIMAL_NUMBER,     "Decimal Number"
+ IDS_REGEXP_HEXADECIMAL_NUMBER, "Hexadecimal Number"
+ IDS_REGEXP_REAL_NUMBER,        "Real Number"
+
+ IDS_REGEXP_QUOTED_STRING,      "Quoted String"
+ IDS_REGEXP_ALPHABETIC_STRING,  "Alphabetic String"
+ IDS_REGEXP_IDENTIFIER,         "Identifier"
+}
+

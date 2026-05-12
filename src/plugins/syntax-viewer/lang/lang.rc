@@ -1,0 +1,185 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "lang.rh"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winresrc.h"
+
+#include "..\syntaxview.rh2"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "lang.rh\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winresrc.h""\r\n"
+    "\r\n"
+    "#include ""..\\syntaxview.rh2""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)\r\n"
+    "LANGUAGE LANG_NEUTRAL,SUBLANG_NEUTRAL\r\n"
+    "#include ""lang.rc2""   // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+
+IDD_GOTOLINE DIALOGEX 75, 140, 205, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Go To Line"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+LTEXT           "&Line:", IDC_STATIC_1, 8, 8, 161, 8
+EDITTEXT        IDE_GOTO_LINE, 8, 18, 189, 12, ES_AUTOHSCROLL | WS_GROUP
+DEFPUSHBUTTON   "OK", IDOK, 19, 59, 50, 14, WS_GROUP
+PUSHBUTTON      "Cancel", IDCANCEL, 77, 59, 50, 14
+END
+
+
+IDD_CFGPAGEVIEWER DIALOGEX 66, 53, 205, 61
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_CAPTION
+CAPTION "Viewer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Window position",IDC_STATIC_1,4,6,199,41
+    CONTROL         "&Save on close",IDC_CFG_SAVEPOSONCLOSE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,11,17,63,12
+    CONTROL         "S&et to position of Salamander's window",IDC_CFG_SETBYMAINWINDOW,
+                    "Button",BS_AUTORADIOBUTTON,11,29,156,12
+    CONTROL         "Show line numbering by default",
+                    IDC_CFG_DISPLAYLINENUMBERS,
+                    "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 11, 52, 140, 12
+    LTEXT          "&Scroll speed (lines per step):", IDC_STATIC_1, 11, 70, 100, 8
+    EDITTEXT       IDC_CFG_SCROLLSPEED, 11, 80, 60, 14, ES_NUMBER
+
+    CONTROL        "", IDC_CFG_SCROLLSPEEDSPIN, "msctls_updown32",
+    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,70, 80, 12, 14
+
+    CONTROL        "Show grammar parsing errors (diagnostic)",
+                   IDC_CFG_GRAMMARERRORS,
+                   "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 11, 100, 145, 12
+END
+
+IDD_FONT_THEME DIALOGEX 89, 36, 278, 176
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_CAPTION
+CAPTION "Font && Theme "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&Available themes:", IDS_ACDRVHDR, 135, 4, 135, 8, NOT WS_GROUP
+    LISTBOX         IDC_THEMELIST, 135, 14, 135, 141, LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+
+    LTEXT          "Font:", IDC_STATIC_FONT_LABEL, 8, 10, 30, 12
+    LTEXT          "", IDC_STATIC_FONTNAME, 40, 10, 90, 12
+
+    LTEXT          "Size:", IDC_STATIC_SIZE_LABEL, 8, 25, 30, 12
+    LTEXT          "", IDC_STATIC_FONTSIZE, 40, 25, 90, 12
+
+    PUSHBUTTON     "Choose Font...", IDC_CHOOSEFONT, 8, 40, 80, 14, WS_TABSTOP
+
+    LTEXT          "&Tab size:", IDC_STATIC_1, 8, 65, 59, 8
+    EDITTEXT       IDC_TABSIZE, 8, 75, 60, 14, ES_NUMBER
+
+    CONTROL        "", IDC_TABSIZESPIN, "msctls_updown32",
+    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_ARROWKEYS,
+    67, 75, 12, 14
+END
+
+IDD_FINDSET DIALOGEX 81, 47, 210, 144
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+CONTROL         "", IDC_STATIC_1, "Static", SS_ETCHEDHORZ | WS_GROUP, 28, 11, 174, 1
+LTEXT           "&Find", IDC_STATIC_2, 9, 7, 17, 8
+COMBOBOX        IDC_FINDTEXT, 16, 17, 171, 64, CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+PUSHBUTTON      "", IDC_REGEXP_BROWSE, 190, 17, 12, 13, WS_GROUP
+CONTROL         "&HEX-mode", IDC_FINDHEX, "Button", BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP, 16, 32, 48, 12
+CONTROL         "", IDC_STATIC_3, "Static", SS_ETCHEDHORZ | WS_GROUP, 38, 59, 164, 1
+LTEXT           "Options", IDC_STATIC_4, 9, 55, 28, 8
+CONTROL         "Search forwar&d", IDC_SFORWARD, "Button", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 16, 65, 66, 12
+CONTROL         "Search &backward", IDC_SBACKWARD, "Button", BS_AUTORADIOBUTTON, 16, 77, 72, 12
+CONTROL         "&Whole words", IDC_WHOLEWORDS, "Button", BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP, 113, 65, 57, 12
+CONTROL         "&Case sensitive", IDC_CASESENSITIVE, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 113, 77, 60, 12
+CONTROL         "&Regular expression", IDC_VIEWREGEXP, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 113, 89, 75, 12
+CONTROL         "", IDC_STATIC_5, "Static", SS_ETCHEDHORZ | WS_GROUP, 8, 114, 194, 1
+DEFPUSHBUTTON   "OK", IDOK, 21, 122, 50, 14, WS_GROUP
+PUSHBUTTON      "Cancel", IDCANCEL, 80, 122, 50, 14
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FONT, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_FONT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL,SUBLANG_NEUTRAL
+#include "lang.rc2"   // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

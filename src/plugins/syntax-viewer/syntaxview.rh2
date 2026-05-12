@@ -1,0 +1,176 @@
+﻿//****************************************************************************
+// 
+// Syntax Highlighting Plugin for Open Salamander
+//
+// Author: Michal Mores
+//
+// Email: xmoresm00@stud.fit.vut.cz
+//
+//****************************************************************************
+
+// SPDX-FileCopyrightText: 2023 Open Salamander Authors
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+
+// WARNING: cannot be replaced by "#pragma once" because it is included from .rc file and it seems resource compiler does not support "#pragma once"
+#ifndef __DEMOVIEW_RH2
+#define __DEMOVIEW_RH2
+
+#if defined(APSTUDIO_INVOKED) && !defined(APSTUDIO_READONLY_SYMBOLS)
+#error this file is not editable by Microsoft Visual C++
+#endif //defined(APSTUDIO_INVOKED) && !defined(APSTUDIO_READONLY_SYMBOLS)
+
+#define IDC_STATIC_1 3000	//todo check 3000 duplicity
+#include "statics.rh2"   // 3000 az 3039 jsou timto zabrane !!!
+
+#define IDS_PLUGINNAME           46
+#define IDS_ABOUT                47
+#define IDS_PLUGIN_DESCRIPTION   48
+#define IDS_PLUGIN_HOME          49
+#define IDS_PLUGIN_BUGREP        50
+#define IDS_PLUGIN_EMAIL         51
+#define IDS_CFG_ALREADY_OPENED   52
+#define IDS_VIEWER_OPENWNDS      53
+#define IDS_CFG_TITLE            54
+#define IDS_INVALID_NUM          55
+#define IDS_DMV_FILES_FILTER     56
+
+#define IDB_TOOLBAR16            100
+#define IDB_TOOLBAR256           101
+
+#define IDI_BROWSE			     503
+
+#define IDH_VIEWBMPFROMCLIP      900
+
+#define IDB_PLUGINICO            1000
+
+#define CML_VIEWER_FILES         1500
+#define CM_VIEWER_OPEN           1501
+#define CM_VIEWER_EXIT           1502
+#define CM_VIEWER_GOTOLINE       1503
+#define CM_VIEWER_PREVFILE        1504
+#define CM_VIEWER_NEXTFILE        1505
+#define CM_VIEWER_PREVSELFILE     1506
+#define CM_VIEWER_NEXTSELFILE     1507
+#define CM_VIEWER_FIRSTFILE       1508
+#define CM_VIEWER_LASTFILE        1509
+#define CM_VIEWER_OPENEDITOR           1510
+
+#define CML_VIEWER_EDIT          1520
+#define CM_VIEWER_COPY           1522
+#define CM_VIEWER_FILTER         1523
+#define CM_VIEWER_SELECTALL      1524
+
+#define CML_VIEWER_OPTIONS       1525
+#define CM_VIEWER_CFG            1526
+
+#define CML_VIEWER_HELP          1530
+#define CM_VIEWER_ABOUT          1531
+
+#define CML_VIEWER_VIEW          1540
+#define CM_VIEWER_LINENUMBERING  1541
+#define CM_VIEWER_FULLSCREEN	 1542
+#define CML_VIEWER_FILTER        1545
+
+#define CM_FILTER_FIRST          1550 // vyhrazeny interval
+#define CM_FILTER_LAST           1559
+
+#define CML_VIEWER_SEARCH		1560
+#define CM_VIEWER_FIND			1561
+#define CM_VIEWER_FINDNEXT		1562
+#define CM_VIEWER_FINDPREV		1563
+
+#define CML_VIEWER_ENCODING		1570
+#define CM_VIEWER_ANSI			1571
+#define CM_VIEWER_UTF8			1572
+#define CM_VIEWER_OEM			1573
+#define CM_VIEWER_CP852			1574
+#define CM_VIEWER_CP1250			1575
+#define CM_VIEWER_CP1252			1576
+#define CM_VIEWER_LATIN1			1577
+#define CM_VIEWER_LATIN2			1578
+
+#define IDS_MENU_FILES           2000
+#define IDS_MENU_FILES_OPEN      2001
+#define IDS_MENU_FILES_EXIT      2002
+#define IDS_MENU_FILES_GOTOLINE  2003
+#define IDS_MENU_FILES_OTHERFILES           2004
+#define IDS_MENU_FILES_PREV            2005
+#define IDS_MENU_FILES_NEXT            2006
+#define IDS_MENU_FILES_PREVSEL         2007
+#define IDS_MENU_FILES_NEXTSEL         2008
+#define IDS_MENU_FILES_FIRST           2009
+#define IDS_MENU_FILES_LAST            2019 // POZOR ZLY INVERVAL
+#define IDS_MENU_FILES_OPENEDITOR            2018 // POZOR ZLY INVERVAL
+
+#define IDS_MENU_EDIT            2010
+#define IDS_MENU_EDIT_COPY       2011
+#define IDS_MENU_EDIT_SELECTALL	 2012
+
+#define IDS_MENU_VIEW            2020
+#define IDS_MENU_FILTER          2021
+#define IDS_FILTER               2022
+#define IDS_MENU_VIEW_LINENUMBERING		 2023
+#define IDS_MENU_VIEW_FULLSCREEN		 2024
+
+#define IDS_MENU_OPTIONS         2025
+#define IDS_MENU_OPTIONS_CFG     2026
+
+#define IDS_MENU_HELP            2032
+#define IDS_MENU_HELP_ABOUT      2033
+
+#define IDS_MENU_SEARCH				2040
+#define IDS_MENU_SEARCH_FIND		2041
+#define IDS_MENU_SEARCH_FINDNEXT	2042
+#define IDS_MENU_SEARCH_FINDPREV	2043
+
+#define IDS_MENU_ENCODING			2050
+#define IDS_MENU_ENCODING_ANSI		2051
+#define IDS_MENU_ENCODING_UTF8		2052
+#define IDS_MENU_ENCODING_OEM		2053
+#define IDS_MENU_ENCODING_CP852		2054
+#define IDS_MENU_ENCODING_CP1250		2055
+#define IDS_MENU_ENCODING_CP1252		2056
+#define IDS_MENU_ENCODING_LATIN1		2057
+#define IDS_MENU_ENCODING_LATIN2		2058
+
+#define IDS_TBTT_CUT             2500
+#define IDS_TBTT_COPY            2501
+#define IDS_TBTT_PASTE           2502
+#define IDS_TBTT_FILTER          2503
+
+#define IDC_SELECTGRAMMAR		 3001
+
+
+// regular expressions menu
+#define IDS_REGEXP_ANYCHAR            10781
+#define IDS_REGEXP_SETOFCHAR          10782
+#define IDS_REGEXP_NOTSETOFCHAR       10783
+#define IDS_REGEXP_RANGEOFCHAR        10784
+#define IDS_REGEXP_BEGINOFLINE        10785
+#define IDS_REGEXP_ENDOFLINE          10786
+#define IDS_REGEXP_OR                 10787
+#define IDS_REGEXP_0ORMORE            10788
+#define IDS_REGEXP_1ORMORE            10789
+#define IDS_REGEXP_0OR1               10790
+
+#define IDS_REGEXP_PARENTHESIS_L_CHAR 10791
+#define IDS_REGEXP_PARENTHESIS_R_CHAR 10792
+#define IDS_REGEXP_DOT_CHAR           10793
+#define IDS_REGEXP_PLUS_CHAR          10794
+#define IDS_REGEXP_ASTERISK_CHAR      10795
+
+#define IDS_REGEXP_ALPHANUMERIC_CHAR  10796
+#define IDS_REGEXP_ALPHABETIC_CHAR    10797
+#define IDS_REGEXP_DECIMAL_DIGIT      10798
+
+#define IDS_REGEXP_DECIMAL_NUMBER     10799
+#define IDS_REGEXP_HEXADECIMAL_NUMBER 10800
+#define IDS_REGEXP_REAL_NUMBER        10801
+
+#define IDS_REGEXP_QUOTED_STRING      10802
+#define IDS_REGEXP_ALPHABETIC_STRING  10803
+#define IDS_REGEXP_IDENTIFIER         10804
+
+
+#endif // __DEMOVIEW_RH2

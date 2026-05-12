@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regcomp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regexec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regsyntax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\st.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regposerr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regtrav.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\reggnu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regposix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\regversion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\ascii.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\euc_kr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\koi8_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\us_ascii.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\utf_8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_1254.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\big5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\euc_tw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\koi8_u.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\utf_16be.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_1250.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_1257.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\cp949.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\gb18030.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\mktable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\utf_16le.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_1251.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_31j.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\emacs_mule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\shift_jis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\utf_32be.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_1252.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\euc_jp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\gbk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\iso_8859_9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\unicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\utf_32le.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\SyntaxView\src\msvc-textmate\libs\Onigmo\enc\windows_1253.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\SyntaxView\src\msvc-textmate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F2158D4-BDB7-3FD9-9F23-75DA635FA59B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
