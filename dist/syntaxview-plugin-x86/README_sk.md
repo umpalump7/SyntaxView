@@ -132,6 +132,10 @@ Pravidlá:
  - Pokračovanie vyhľadávania s nezmenenými parametrami -- `F3`
  - Maximalizácia a revertovanie maximalizácie okna -- `F11`
  - Zapnutie alebo vypnutie zobrazenia číslovania riadkov -- `CTRL+X`
+ - Vertikálne posúvanie -- `SCROLL`
+ - Horizontálne posúvanie -- `ALT+SCROLL`
+ - Zmena velkosti fontu -- `CTRL+SCROLL`
+ - Úprava aktívnej selekcie -- `SHIFT+ARROWS`
 
 ## Právne informácie  
   

@@ -140,6 +140,10 @@ Rules:
 -   Continue search -- `F3`
 -   Toggle fullscreen -- `F11`
 -   Toggle line numbers -- `CTRL+X`
+-	Vertical scroll -- `SCROLL`
+-	Horizontal scroll -- `ALT+SCROLL`
+-	Change font size -- `CTRL+SCROLL`
+-	Modify active selection -- `SHIFT+ARROWS`
 
 
 ## Legal Information
